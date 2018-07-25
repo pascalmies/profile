@@ -1,0 +1,95 @@
+body {
+  background-image: url(https://78.media.tumblr.com/c12d7bc4310e7838b645bfe7a86a745b/tumblr_ndga0sFBYY1u15aayo1_400.gif);
+  background-size: cover;
+}
+
+.container {
+  font-family: 'Open Sans', sans-serif;
+  color: #172121;
+  line-height: normal;
+  font-size: 12px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #FFFFFF;
+  padding: 5px;
+  margin: 15px;
+  font-size: 15px;
+  border-radius: 3px;
+  border-width: 0.5px;
+  box-shadow:0.2px 0.2px ;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 20px 50px;
+}
+
+.center_text {
+  text-align: center;
+}
+
+.img_circle {
+  border-radius: 50%;
+}
+
+.img_shadow {
+  box-shadow :2px 2px;
+}
+
+tr {
+  margin: 10px;
+  padding: 20px;
+}
+
+h1 {
+  color:#A4243B;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  line-height: 1.5px;
+  color: #574B60;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color:#574B60;
+}
+
+a {
+  text-decoration: none;
+  color:#16BAC5;
+}
+
+.object_center {
+  margin: auto;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
